@@ -1,3 +1,4 @@
+process.env.DEBUG = true;
 var fs     = require('fs'),
     stream = require('stream'),
     needle = require('./../');
